@@ -3,8 +3,8 @@
 CREATE TABLE IF NOT EXISTS `stran` (
   `city` VARCHAR(50),
   `country` VARCHAR(50),
-  ` population` INT (50),
-  `code` INT (50);)
+  ` population` INT(50),
+  `code` INT(50))
   DEFAULT CHARSET = UTF8;
   INSERT INTO `stran` (`city`, `country`, `population`,`code`)
   VALUES
